@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  color: #333;
+  line-height: 1.5;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: linear-gradient(to top left,#28b487,#7dd56f);
+}
+
+.main{
+  align-items: center;
+  position: relative;
+  display: block;
+  padding-top: 120px;
+  border: 2px solid #333;
+  border-radius: 20px;
+  padding: 90px 50px 90px 50px;
+  margin: 150px;
+}
+#username,#password{
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+padding-bottom: 30px;
+}
+input{
+  background-color: aliceblue;
+  text-align: center;
+  padding: 12px 1px 12px 8px;
+  border: 1px solid black;
+  font-size: 20px;
+  justify-items: center;
+  border-radius: 25px;
+  display: block;
+  padding-bottom: 10px;
+}
+a{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  border: 10px;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+button{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 60px;
+    height: 30px;
+   border: 20px;
+    border-radius: 10px;
+}
+button:hover{
+  cursor: pointer;
+  color: white;
+  background-color: #333;
+  width: 50px;
+  border-radius: 10px;
+}
